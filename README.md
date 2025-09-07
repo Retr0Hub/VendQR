@@ -91,7 +91,7 @@ SmartMedicineVending/
 
 ![Medicine Selection](screenshots/1.png) 
 ![Cart](screenshots/2.png) 
-![QR Generated](screenshots/3.png) 
+![QR Generated](screenshots/3.jpg) 
 ---
 
 ## 📌 Future Enhancements  
