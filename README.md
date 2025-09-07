@@ -87,12 +87,11 @@ SmartMedicineVending/
 
 ---
 
-## 📸 Screenshots (Optional)  
+## 📸 Screenshots
 
-- Medicine selection page  
-- QR code checkout screen  
-- UPI payment confirmation  
-
+![Medicine Selection](screenshots/1.png) 
+![Cart](screenshots/2.png) 
+![QR Generated](screenshots/3.png) 
 ---
 
 ## 📌 Future Enhancements  
