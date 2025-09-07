@@ -1,0 +1,15 @@
+Order Confirmed
+
+Pistachio Baklava
+Quantity: 2 @ ₹400.00
+Total: ₹800.00
+
+Red Velvet Cake
+Quantity: 1 @ ₹450.00
+Total: ₹450.00
+
+Salted Caramel Brownie
+Quantity: 1 @ ₹450.00
+Total: ₹450.00
+
+Order Total: ₹1700.00

@@ -1,0 +1,15 @@
+Order Confirmed
+
+Macaron Mix of Five
+Quantity: 1 @ ₹800.00
+Total: ₹800.00
+
+Pistachio Baklava
+Quantity: 2 @ ₹400.00
+Total: ₹800.00
+
+Lemon Meringue Pie
+Quantity: 1 @ ₹500.00
+Total: ₹500.00
+
+Order Total: ₹2100.00

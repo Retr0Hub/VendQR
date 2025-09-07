@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script defer type="text/javascript" src="/js/createElements.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer type="text/javascript" src="/js/getData.js"></script>
+    <script defer type="text/javascript" src="/js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+      async function generateQR() {
+          let orderInfo = document.getElementById("orderInput").value;
+          if (!orderInfo) {
+              alert("Please enter order details.");
+              return;
+          }
+  
+          let response = await fetch("http://localhost:5500/generate-qrcode", { // Flask running on 5500
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ order_info: orderInfo })
+          });
+
+          let result = await response.json();
+          if (result.url) {
+              window.open(result.url, "_blank"); // Open QR Code in new tab
+          } else {
+              alert(result.error || "Failed to generate QR");
+          }
+      }
+    </script>  
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+    <title>Product List with Cart</title>
+</head>
+<body>
+    <main id="main">
+        <div>
+            <h1>Desserts</h1>
+            <div class="choices" id="choices"></div>
+        </div>
+        <div class="cartContainer">
+            <div class="cart" id="cart"></div>
+        </div>
+    </main>
+</html>
