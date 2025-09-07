@@ -90,7 +90,7 @@ SmartMedicineVending/
 ## 📸 Screenshots
 
 ![Medicine Selection](screenshots/1.png) 
-| Screen 3 | Screen 4 |
+| Desktop | Mobile |
 |----------|----------|
 |![Cart](screenshots/2.png) |![QR Generated](screenshots/3.jpg)| 
 ---
